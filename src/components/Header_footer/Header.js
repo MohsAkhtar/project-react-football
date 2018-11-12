@@ -14,10 +14,20 @@ class Header extends Component {
           backgroundColor: '#98c5e9',
           boxShadow: 'none',
           padding: '10px 0',
-          border: '2px solid #00285e'
+          borderBottom: '2px solid #00285e'
         }}
       >
-        <Toolbar style={{ display: 'flex' }} />
+        <Toolbar style={{ display: 'flex' }}>
+          <div style={{ flexGrow: 1 }}>
+            <div className="header_logo">LOGO</div>
+          </div>
+          <Link to="/the_team">
+            <Button color="inherit">The Team</Button>
+          </Link>
+          <Link to="/the_matches">
+            <Button color="inherit">Matches</Button>
+          </Link>
+        </Toolbar>
       </AppBar>
     );
   }
