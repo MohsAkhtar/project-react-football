@@ -1,0 +1,699 @@
+<data-teamgrid data-filter="true" class="ng-scope"><!-- First Screen Design -->
+<!-- ngIf: nextScreen -->
+<!-- Second Screen Design Starts -->
+<div class="team-grid__result" data-ng-hide="nextScreen">
+    <section class="team-grid">
+        <div class="filter__right-tab" style="display: none;">
+            <a data-ng-href="" onclick="event.stopPropagation()" class="ng-scope">
+                <span class="ng-binding">:</span>
+                <img alt="" data-fallback-img="">
+            </a>
+        </div>
+        <div class="team-grid__filter">
+            <div class="container">
+                <div class="grid-12">
+                <!-- ngIf: myUnitedSponsor.PartnerName -->
+                    <div class="team-grid__filter-tab">
+                        <nav aria-label="Team Grid">
+                            <ul>
+                                <!-- ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/first-team" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/first-team" data-url="en/players-and-staff/first-team" data-team="First Team" class="ng-binding active">First Team</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/manager" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/manager" data-url="en/players-and-staff/manager" data-team="Manager" class="ng-binding">Manager</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/women" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/women" data-url="en/players-and-staff/women" data-team="Women" class="ng-binding">Women</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/reserves" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/reserves" data-url="en/players-and-staff/reserves" data-team="Under-23s" class="ng-binding">Under-23s</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/the-academy" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/the-academy" data-url="en/players-and-staff/the-academy" data-team="Under-18s" class="ng-binding">Under-18s</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr --><!-- ngIf: filtername.label_t --><li data-ng-repeat="filtername in filterAttr" data-ng-if="filtername.label_t" data-track-analytics="" class="ng-scope">
+                                    <a data-ng-href="https://www.manutd.com/en/players-and-staff/legends" data-track-type="link" data-an-track="true" href="https://www.manutd.com/en/players-and-staff/legends" data-url="en/players-and-staff/legends" data-team="Legends" class="ng-binding">Legends</a>
+                                </li><!-- end ngIf: filtername.label_t --><!-- end ngRepeat: filtername in filterAttr -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container minheight">
+        <!-- ngRepeat: playerNode in playerDataKeys --><section class="team-grid__details ng-scope" data-content="" data-ng-repeat="playerNode in playerDataKeys">
+            <!-- ngRepeat: playerHeading in playerDataArr[playerNode].grouped --><div class="team-grid__item ng-scope" data-ng-repeat="playerHeading in playerDataArr[playerNode].grouped">
+                <div class="grid-12">
+                    
+                    <!-- ngIf: playerHeading.value.doclist.docs.length > 0 --><h2 class="team-grid__heading ng-binding ng-scope" data-ng-bind="playerHeading.key" data-ng-if="playerHeading.value.doclist.docs.length > 0">Goalkeepers</h2><!-- end ngIf: playerHeading.value.doclist.docs.length > 0 -->
+                </div>
+                <ul>
+                    <!-- ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/david-de-gea" data-track-type="card" data-an-track="true" data-card="true" data-cardname="David De Gea" data-tags="[&quot;People/DavidDeGea&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/DavidDeGea&quot;,&quot;Screens/Search&quot;,&quot;Screens/Players&quot;]" data-itemid="{D0FE9922-6E46-4082-AB6F-44DDF414EEB7}" data-published="2017-05-25T08:26:17Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/david-de-gea">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718048/775205331GP1682_Man_Utd_selects1535895175784.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="David De Gea">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true" style="outline: none;">1</p>
+                                    <span class="mu-item__firstname ng-binding">David</span>
+                                    <span class="mu-item__lastname ng-binding">De Gea</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 1</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/lee-grant" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Lee Grant" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Lee Grant&quot;,&quot;Screens/Search&quot;]" data-itemid="{4CB1A4F3-A1CA-41F0-915F-CEDFE68564C5}" data-published="2018-07-06T07:03:57Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/lee-grant">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718044/775205331GP1337_Man_Utd_selects1535990302590.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Lee Grant.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">13</p>
+                                    <span class="mu-item__firstname ng-binding">Lee</span>
+                                    <span class="mu-item__lastname ng-binding">Grant</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 13</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/sergio-romero" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Sergio Romero" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/SergioRomero&quot;,&quot;Screens/Search&quot;]" data-itemid="{799C5263-C571-416D-9068-5920533BFB21}" data-published="2017-05-24T20:47:23Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/sergio-romero">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718050/775205331GP1879_Man_Utd_selects1535990010514.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Sergio Romero.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">22</p>
+                                    <span class="mu-item__firstname ng-binding">Sergio</span>
+                                    <span class="mu-item__lastname ng-binding">Romero</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 22</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/joel-castro-pereira" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Joel Pereira" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/JoelCastroPereira&quot;,&quot;Screens/Search&quot;,&quot;Screens/UnitedNow&quot;]" data-itemid="{1275AD27-3E90-4918-BE85-E6F1CEC43F12}" data-published="2017-05-25T08:26:17Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/joel-castro-pereira">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/11/14/724683/Player-Thumbnail-J-Pereira1538557023090.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Joel Pereira">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">40</p>
+                                    <span class="mu-item__firstname ng-binding">Joel</span>
+                                    <span class="mu-item__lastname ng-binding">Pereira</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 40</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs -->
+                </ul>
+            </div><!-- end ngRepeat: playerHeading in playerDataArr[playerNode].grouped --><div class="team-grid__item ng-scope" data-ng-repeat="playerHeading in playerDataArr[playerNode].grouped">
+                <div class="grid-12">
+                    
+                    <!-- ngIf: playerHeading.value.doclist.docs.length > 0 --><h2 class="team-grid__heading ng-binding ng-scope" data-ng-bind="playerHeading.key" data-ng-if="playerHeading.value.doclist.docs.length > 0">Defenders</h2><!-- end ngIf: playerHeading.value.doclist.docs.length > 0 -->
+                </div>
+                <ul>
+                    <!-- ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/victor-lindelof" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Victor Lindelof" data-tags="[&quot;People/Victor Lindelof&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Victor Lindelof&quot;,&quot;Screens/Search&quot;]" data-itemid="{FF36FC1C-2826-4362-8358-31AAF3652069}" data-published="2017-08-11T14:47:20Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/victor-lindelof">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718040/775205331GP857_Man_Utd_selects1536050204114.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Victor Lindelof">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">2</p>
+                                    <span class="mu-item__firstname ng-binding">Victor</span>
+                                    <span class="mu-item__lastname ng-binding">Lindelof</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 2</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/eric-bailly" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Eric Bailly" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/EricBailly&quot;,&quot;Screens/Search&quot;]" data-itemid="{A77AC2AA-B82E-478B-B9EC-032D0A7F0607}" data-published="2017-09-13T14:41:10Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/eric-bailly">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718038/775205331GP620_Man_Utd_selects1536050374839.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Eric Bailly">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">3</p>
+                                    <span class="mu-item__firstname ng-binding">Eric</span>
+                                    <span class="mu-item__lastname ng-binding">Bailly</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 3</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/phil-jones" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Phil Jones" data-tags="[&quot;People/PhilJones&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/PhilJones&quot;,&quot;Screens/Search&quot;]" data-itemid="{CE387647-D680-42C7-BF50-5BAA69236EED}" data-published="2017-05-25T08:26:17Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/phil-jones">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718043/775205331GP1185_Man_Utd_selects1535990365954.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Phil Jones.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">4</p>
+                                    <span class="mu-item__firstname ng-binding">Phil</span>
+                                    <span class="mu-item__lastname ng-binding">Jones</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 4</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/chris-smalling" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Chris Smalling" data-tags="[&quot;People/ChrisSmalling&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/ChrisSmalling&quot;,&quot;Screens/Search&quot;]" data-itemid="{C7DA446A-6C41-471C-89C5-FD79F07C44F7}" data-published="2017-05-24T20:47:41Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/chris-smalling">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive figure-adaptive" data-ng-style="setBackground()" style="background-image: url(&quot;//www.manutd.com/AssetPicker/images/0/0/10/244/718034/775205331GP232_Man_Utd_selects1536050863474.jpg&quot;); opacity: 1;">
+                                        <img data-fallback-img="" data-module="visually-hidden" class="visually-hidden" alt="Chris Smalling.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">12</p>
+                                    <span class="mu-item__firstname ng-binding">Chris</span>
+                                    <span class="mu-item__lastname ng-binding">Smalling</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 12</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/marcos-rojo" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Marcos Rojo" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Marcos Rojo&quot;,&quot;Screens/Search&quot;,&quot;Screens/UnitedNow&quot;]" data-itemid="{B5B25FE1-0A60-4318-89AA-CD634F4E008E}" data-published="2017-05-25T08:26:16Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/marcos-rojo">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718049/775205331GP1772_Man_Utd_selects1535990090217.jpg" data-module="visually-hidden" class="visually-hidden" alt="Marcos Rojo.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">16</p>
+                                    <span class="mu-item__firstname ng-binding">Marcos</span>
+                                    <span class="mu-item__lastname ng-binding">Rojo</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 16</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/ashley-young" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Ashley Young" data-tags="[&quot;People/AshleyYoung&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AshleyYoung&quot;,&quot;Screens/Search&quot;]" data-itemid="{F068544E-F212-428F-8FC6-916844104255}" data-published="2017-05-25T08:26:02Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/ashley-young">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718055/775205331GP2620_Man_Utd_selects1535989539932.jpg" data-module="visually-hidden" class="visually-hidden" alt="Ashley Young.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">18</p>
+                                    <span class="mu-item__firstname ng-binding">Ashley</span>
+                                    <span class="mu-item__lastname ng-binding">Young</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 18</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/diogo-dalot" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Diogo Dalot" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Diogo Dalot&quot;,&quot;Screens/Search&quot;,&quot;Screens/Players&quot;]" data-itemid="{C53D598F-1EDC-4CE2-833E-949CACBE8111}" data-published="2018-06-13T13:13:00Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/diogo-dalot">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718057/775205331GP2875_Man_Utd_selects1535989759753.jpg" data-module="visually-hidden" class="visually-hidden" alt="Diogo Dalot.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">20</p>
+                                    <span class="mu-item__firstname ng-binding">Diogo</span>
+                                    <span class="mu-item__lastname ng-binding">Dalot</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 20</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/luke-shaw" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Luke Shaw" data-tags="[&quot;People/LukeShaw&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/LukeShaw&quot;,&quot;Screens/Search&quot;,&quot;Screens/UnitedNow&quot;]" data-itemid="{A41F4AEC-D308-42CB-B314-AF64CDB60B76}" data-published="2017-05-25T08:26:29Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/luke-shaw">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718033/775205331GP149_Man_Utd_selects1535634205934.jpg" data-module="visually-hidden" class="visually-hidden" alt="Luke Shaw.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">23</p>
+                                    <span class="mu-item__firstname ng-binding">Luke</span>
+                                    <span class="mu-item__lastname ng-binding">Shaw</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 23</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/timothy-fosu-mensah" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Tim Fosu-Mensah" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;People/TimothyFosuMensah&quot;,&quot;Screens/Search&quot;]" data-itemid="{A3D1FB47-CEBB-4DBF-B28D-F038F7D8EE98}" data-published="2017-05-25T08:26:29Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/timothy-fosu-mensah">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718036/775205331GP445_Man_Utd_selects1536050646548.jpg" data-module="visually-hidden" class="visually-hidden" alt="Tim Fosu-Mensah">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">24</p>
+                                    <span class="mu-item__firstname ng-binding">Tim</span>
+                                    <span class="mu-item__lastname ng-binding">Fosu-Mensah</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 24</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/antonio-valencia" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Antonio Valencia" data-tags="[&quot;People/AntonioValencia&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AntonioValencia&quot;,&quot;Screens/Search&quot;]" data-itemid="{9BCFE878-3A2D-4896-8339-1DCFACABAA79}" data-published="2017-05-24T20:47:40Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/antonio-valencia">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718039/775205331GP725_Man_Utd_selects1535989420100.jpg" data-module="visually-hidden" class="visually-hidden" alt="Antonio Valencia.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">25</p>
+                                    <span class="mu-item__firstname ng-binding">Antonio</span>
+                                    <span class="mu-item__lastname ng-binding">Valencia</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 25</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/matteo-darmian" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Matteo Darmian" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/MatteoDarmian&quot;,&quot;Screens/Search&quot;]" data-itemid="{25FC6B8C-B4C0-4CB1-879C-4E92217F74F1}" data-published="2017-05-24T20:47:41Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/matteo-darmian">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718051/775205331GP2063_Man_Utd_selects1535990221706.jpg" data-module="visually-hidden" class="visually-hidden" alt="Matteo Darmian.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">36</p>
+                                    <span class="mu-item__firstname ng-binding">Matteo</span>
+                                    <span class="mu-item__lastname ng-binding">Darmian</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 36</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/axel-tuanzebe" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Axel Tuanzebe" data-tags="[&quot;People/AxelTuanzebe&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AxelTuanzebe&quot;,&quot;Screens/Search&quot;]" data-itemid="{F5379A22-3B4F-4D3C-A785-661C1D21C23B}" data-published="2017-05-25T08:26:28Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/axel-tuanzebe">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/11/14/724682/Player-Thumbnail-Tuanzebe1538556748273.jpg" data-module="visually-hidden" class="visually-hidden" alt="Axel Tuanzebe">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">38</p>
+                                    <span class="mu-item__firstname ng-binding">Axel</span>
+                                    <span class="mu-item__lastname ng-binding">Tuanzebe</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 38</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs -->
+                </ul>
+            </div><!-- end ngRepeat: playerHeading in playerDataArr[playerNode].grouped --><div class="team-grid__item ng-scope" data-ng-repeat="playerHeading in playerDataArr[playerNode].grouped">
+                <div class="grid-12">
+                    
+                    <!-- ngIf: playerHeading.value.doclist.docs.length > 0 --><h2 class="team-grid__heading ng-binding ng-scope" data-ng-bind="playerHeading.key" data-ng-if="playerHeading.value.doclist.docs.length > 0">Midfielders</h2><!-- end ngIf: playerHeading.value.doclist.docs.length > 0 -->
+                </div>
+                <ul>
+                    <!-- ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/paul-pogba" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Paul Pogba" data-tags="[&quot;People/PaulPogba&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/PaulPogba&quot;,&quot;Screens/Search&quot;]" data-itemid="{7523933E-E6E2-43C1-9726-1FBC3F301D4F}" data-published="2017-05-24T20:39:37Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/paul-pogba">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718042/775205331GP1088_Man_Utd_selects1535990449561.jpg" data-module="visually-hidden" class="visually-hidden" alt="Paul Pogba">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">6</p>
+                                    <span class="mu-item__firstname ng-binding">Paul</span>
+                                    <span class="mu-item__lastname ng-binding">Pogba</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 6</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/juan-mata" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Juan Mata" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/JuanMata&quot;,&quot;Screens/Search&quot;]" data-itemid="{F57AD345-2622-4FD9-89F6-97A0F73AE168}" data-published="2017-05-24T20:47:56Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/juan-mata">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718053/775205331GP2379_Man_Utd_selects1535989856338.jpg" data-module="visually-hidden" class="visually-hidden" alt="Juan Mata.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">8</p>
+                                    <span class="mu-item__firstname ng-binding">Juan</span>
+                                    <span class="mu-item__lastname ng-binding">Mata</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 8</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/jesse-lingard" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Jesse Lingard" data-tags="[&quot;People/JesseLingard&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/JesseLingard&quot;,&quot;Screens/Search&quot;]" data-itemid="{B85D72EF-B18D-438F-8B2D-D74C511AAE3A}" data-published="2017-05-24T20:48:28Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/jesse-lingard">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718032/775205331GP073_Man_Utd_selects1536050998303.jpg" data-module="visually-hidden" class="visually-hidden" alt="Jesse Lingard.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">14</p>
+                                    <span class="mu-item__firstname ng-binding">Jesse</span>
+                                    <span class="mu-item__lastname ng-binding">Lingard</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 14</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/andreas-pereira" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Andreas Pereira" data-tags="[&quot;People/AndreasPereira&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AndreasPereira&quot;,&quot;Screens/Search&quot;]" data-itemid="{73D31A82-2E31-4740-AFAE-7A347FF07A70}" data-published="2017-06-07T11:12:40Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/andreas-pereira">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718045/775205331GP1417_Man_Utd_selects1535989160919.jpg" data-module="visually-hidden" class="visually-hidden" alt="Andreas Pereira">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">15</p>
+                                    <span class="mu-item__firstname ng-binding">Andreas</span>
+                                    <span class="mu-item__lastname ng-binding">Pereira</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 15</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/fred" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Fred  " data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;People/Fred&quot;,&quot;Screens/Search&quot;]" data-itemid="{30F8FD8E-001E-4500-8E55-8C6D878DA055}" data-published="2018-06-21T14:14:29Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/fred">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718046/775205331GP1496_Man_Utd_selects1535103096436.jpg" data-module="visually-hidden" class="visually-hidden" alt="Fred.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">17</p>
+                                    <span class="mu-item__firstname ng-binding">Fred</span>
+                                    <span class="mu-item__lastname ng-binding"> </span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 17</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/ander-herrera" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Ander Herrera" data-tags="[&quot;People/AnderHerrera&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AnderHerrera&quot;,&quot;Screens/Search&quot;]" data-itemid="{18803A3B-705B-4527-86CB-778B6022D5C0}" data-published="2017-05-24T10:28:24Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/ander-herrera">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718056/775205331GP2778_Man_Utd_selects1535895045814.jpg" data-module="visually-hidden" class="visually-hidden" alt="Ander Herrera">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">21</p>
+                                    <span class="mu-item__firstname ng-binding">Ander</span>
+                                    <span class="mu-item__lastname ng-binding">Herrera</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 21</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/marouane-fellaini" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Marouane Fellaini" data-tags="[&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/MarouaneFellaini&quot;,&quot;Screens/Search&quot;,&quot;Screens/UnitedNow&quot;]" data-itemid="{436102D2-ED67-4E6A-B9BC-777949FA2FF8}" data-published="2017-05-24T20:47:56Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/marouane-fellaini">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718052/775205331GP2266_Man_Utd_selects1535989942572.jpg" data-module="visually-hidden" class="visually-hidden" alt="Marouane Fellaini.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">27</p>
+                                    <span class="mu-item__firstname ng-binding">Marouane</span>
+                                    <span class="mu-item__lastname ng-binding">Fellaini</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 27</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/nemanja-matic" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Nemanja Matic" data-tags="[&quot;People/Nemanja Matic&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Nemanja Matic&quot;,&quot;Screens/Search&quot;,&quot;Screens/Players&quot;]" data-itemid="{55A7AE81-C421-42AA-96A6-D1CCE5831865}" data-published="2017-08-23T16:52:46Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/nemanja-matic">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/11/14/724678/Player-Thumbnail-Matic1538555736120.jpg" data-module="visually-hidden" class="visually-hidden" alt="Nemanja Matic">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">31</p>
+                                    <span class="mu-item__firstname ng-binding">Nemanja</span>
+                                    <span class="mu-item__lastname ng-binding">Matic</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 31</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/scott-mctominay" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Scott McTominay" data-tags="[&quot;People/ScottMcTominay&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/ScottMcTominay&quot;,&quot;Screens/Search&quot;]" data-itemid="{BCCB4BB8-1EBA-4DF2-A57C-55A0F06D6C68}" data-published="2017-05-25T08:26:01Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/scott-mctominay">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718041/775205331GP930_Man_Utd_selects1534334539030.jpg" data-module="visually-hidden" class="visually-hidden" alt="Scott McTominay">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">39</p>
+                                    <span class="mu-item__firstname ng-binding">Scott</span>
+                                    <span class="mu-item__lastname ng-binding">McTominay</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 39</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs -->
+                </ul>
+            </div><!-- end ngRepeat: playerHeading in playerDataArr[playerNode].grouped --><div class="team-grid__item ng-scope" data-ng-repeat="playerHeading in playerDataArr[playerNode].grouped">
+                <div class="grid-12">
+                    
+                    <!-- ngIf: playerHeading.value.doclist.docs.length > 0 --><h2 class="team-grid__heading ng-binding ng-scope" data-ng-bind="playerHeading.key" data-ng-if="playerHeading.value.doclist.docs.length > 0">Forwards</h2><!-- end ngIf: playerHeading.value.doclist.docs.length > 0 -->
+                </div>
+                <ul>
+                    <!-- ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/alexis-sanchez" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Alexis Sanchez" data-tags="[&quot;People/Alexis&quot;,&quot;Mood/Like&quot;,&quot;Campaigns/Alexis7&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/Alexis&quot;,&quot;Screens/Search&quot;,&quot;Screens/Players&quot;]" data-itemid="{6EA5A797-43FD-4DAA-9007-CA43ED78DF12}" data-published="2018-01-25T15:25:42Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/alexis-sanchez">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718054/775205331GP2535_Man_Utd_selects1535988936936.jpg" data-module="visually-hidden" class="visually-hidden" alt="Alexis Sanchez.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">7</p>
+                                    <span class="mu-item__firstname ng-binding">Alexis</span>
+                                    <span class="mu-item__lastname ng-binding">Sanchez</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 7</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/romelu-lukaku" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Romelu Lukaku" data-tags="[&quot;Category/Profile&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/RomeluLukaku&quot;,&quot;Screens/Search&quot;]" data-itemid="{2A83BBDB-60B0-4518-8061-00DDE2A9BA3A}" data-published="2017-05-25T08:26:17Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/romelu-lukaku">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718058/775205331GP2999_Man_Utd_selects1535110203507.jpg" data-module="visually-hidden" class="visually-hidden" alt="Romelu Lukaku">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">9</p>
+                                    <span class="mu-item__firstname ng-binding">Romelu</span>
+                                    <span class="mu-item__lastname ng-binding">Lukaku</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 9</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/marcus-rashford" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Marcus Rashford" data-tags="[&quot;People/MarcusRashford&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;Match/2017-2018/English_Premier_League/SwanseaCity_ManchesterUnited/2017_08_19_Liberty_Stadium_Swansea&quot;,&quot;People/MarcusRashford&quot;,&quot;Screens/Search&quot;,&quot;Screens/Players&quot;]" data-itemid="{1ADBB556-472E-4C53-A06D-0ADC245FCDDE}" data-published="2017-05-24T20:48:18Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/marcus-rashford">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718037/775205331GP512_Man_Utd_selects1536050513549.jpg" data-module="visually-hidden" class="visually-hidden" alt="Marcus Rashford">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">10</p>
+                                    <span class="mu-item__firstname ng-binding">Marcus</span>
+                                    <span class="mu-item__lastname ng-binding">Rashford</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 10</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs --><li class="grid-3 teamgrid-ratio ng-scope" data-ng-repeat="playerObj in playerHeading.value.doclist.docs" data-card-error-check="">
+                       <div class="mu-content" data-track-analytics="">
+                        <a data-ng-href="https://www.manutd.com/en/players-and-staff/detail/anthony-martial" data-track-type="card" data-an-track="true" data-card="true" data-cardname="Anthony Martial" data-tags="[&quot;People/AnthonyMartial&quot;,&quot;Mood/Like&quot;,&quot;Team Level/First Team&quot;,&quot;Category/Profile&quot;,&quot;Focus/Players&quot;,&quot;People/AnthonyMartial&quot;,&quot;Screens/Search&quot;]" data-itemid="{0192A5B0-8925-4E3E-98C1-2BAA493DC97C}" data-published="2017-05-24T20:48:38Z" data-contenttype="playerprofile" data-author="" href="https://www.manutd.com/en/players-and-staff/detail/anthony-martial">
+                            <div class="mu-item team-card">
+                                <div class="img-holder">
+                                    <figure class="adaptive" data-ng-style="setBackground()" data-lazyload="">
+                                        <img data-fallback-img="" data-src="//www.manutd.com/AssetPicker/images/0/0/10/244/718047/775205331GP1600_Man_Utd_selects1535989301055.jpg" data-module="visually-hidden" class="visually-hidden" alt="Anthony Martial.">
+                                        <div class="mu-item__gradient"></div>
+                                    </figure>
+                                    <!--  <div class="img-holder" data-ng-include="'/clientviews/common/cropImgAdaptive.html'+buildRevision" onload="cropData=player;">
+                                                </div> -->
+                                </div>
+                                <div class="mu-item__info">
+                                    <p class="mu-item__jersey-number ng-binding" aria-hidden="true">11</p>
+                                    <span class="mu-item__firstname ng-binding">Anthony</span>
+                                    <span class="mu-item__lastname ng-binding">Martial</span>
+                                    <!-- ngIf: playerObj.shirtnumber_t --><span class="screenreader ng-binding ng-scope" data-ng-if="playerObj.shirtnumber_t">Shirt number 11</span><!-- end ngIf: playerObj.shirtnumber_t -->
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </li><!-- end ngRepeat: playerObj in playerHeading.value.doclist.docs -->
+                </ul>
+            </div><!-- end ngRepeat: playerHeading in playerDataArr[playerNode].grouped -->
+        </section><!-- end ngRepeat: playerNode in playerDataKeys --><section class="team-grid__details ng-scope" data-content="" data-ng-repeat="playerNode in playerDataKeys">
+            <!-- ngRepeat: playerHeading in playerDataArr[playerNode].grouped -->
+        </section><!-- end ngRepeat: playerNode in playerDataKeys -->
+        <div class="grid-12 ad-block dashboard" data-ng-show="showInnerAd" aria-hidden="true" tabindex="-1" style="display: none !important;">
+            <data-ecommerce ad-slot="/11820346/Hercules_ROS_970x250//750x200//300x250" browser-size="[1024,768,320]" ad-size="[[970, 250],[750,200],[300,250]]" data-an-track="true" data-track-type="dfp" tabindex="-1" id="elm-eclbsg"></data-ecommerce>
+        </div>
+        <!-- inner page loader -->
+        <!--  <div class="loader-wrapper" data-ng-show="pageloading">
+            <div class="loader"></div>
+        </div> -->
+    </div>
+</div>
+<!-- outer page loader and Ad block -->
+<!-- <div class="loader-wrapper" data-ng-show="loading">
+    <div class="loader"></div>
+</div> -->
+</data-teamgrid>
